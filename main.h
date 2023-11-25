@@ -15,5 +15,7 @@ typedef struct specifiers
 
 int _putchar(char c);
 int _printf(const char *format, ...);
+void _print_char(va_list args);
+void _print_string(va_list args);
 
 #endif
